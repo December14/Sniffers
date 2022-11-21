@@ -1,22 +1,25 @@
 # Sniffers
-### Charles Proxy 
-#### Задача :
-1. Вам необходимо изменить количество товаров в корзине на уже известном ресурсе http://demowebshop.tricentis.com/cart Например, в запросе отправляется "2 товара", а вы должны вернуть "500".
-2. Смоделируйте ситуацию, при которой при обращении к http://demowebshop.tricentis.com/ сервер вернет статус-код 403. Помните, что запросы к другим ресурсам должны работать в штатном режиме
-3. Иногда в работе тестировщика необходимо перебрасывать запросы с одного окружения на другой. Например, мы не можем проводить прямое тестирование на проде, а должны стучаться к окружению для тестирования. Предположим, что http://demowebshop.tricentis.com/ это продовская версия, а http://demowebshop.tricentis.com/qa это QA стенд (не обращайте внимание, что этой страницы не существует). Ваша задача перенаправить запрос с Prod на QA
-Приложите скриншот перехваченных HTTPs-запросов с вашего мобильного устройства.
+## Charles Proxy 
+### Task :
+1. You need to change the number of products in the basket on an already known resource http://demowebshop.tricentis.com/cart For example, the request sends "2 products", and you have to return "500".
+2. Simulate a situation in which when contacting http://demowebshop.tricentis.com / the server will return the status code 403. Remember that requests to other resources should work normally
+3. Sometimes in the work of the tester it is necessary to transfer requests from one environment to another. For example, we cannot conduct direct testing on the prod, but must knock on the environment for testing. Suppose that http://demowebshop.tricentis.com / this is the prod version, and http://demowebshop.tricentis.com/qa  is a QA version (don't pay attention that this page doesn't exist). Your task is to redirect the request from Prod to QA
+4. Attach a screenshot of intercepted HTTPs requests from your mobile device.
 
-#### Решение :
+### Solution :
  1. https://drive.google.com/file/d/1SloZ68P8k9OW_dk3y88UqtStomDDxbPw/view?usp=sharing
  2. https://drive.google.com/file/d/1alj42bGcEajjBE6VckKQ6f-zHEbQNYoV/view?usp=sharing
  3. https://drive.google.com/file/d/1YNpCc7TkvJ_y3iYNSv4LEr787SepaeMV/view?usp=sharing
  4. https://drive.google.com/file/d/1VrBBP7j0ZiFSOFE6iaqKDuNwHUZf9EQ0/view?usp=sharing
 
-### Fiddler 
-#### Задача :
-1. Вам необходимо удалить товары из корзины на уже известном ресурсе http://demowebshop.tricentis.com/cart
-2. Смоделируйте ситуацию, при которой при обращении к http://demowebshop.tricentis.com/ на сервер вернет статус-код 500
+## Fiddler 
+### Task :
+1. You need to remove products from the basket on an already known resource http://demowebshop.tricentis.com/cart
+2. Simulate a situation in which, when referring to http://demowebshop.tricentis.com / will return the status code 500 to the server
 
-#### Решение :
+### Solution :
  1. https://drive.google.com/file/d/11AhofuSjn9xCyIfhsUnmmO_Y0o0b8g4x/view?usp=sharing
  2. https://drive.google.com/file/d/1lixLXQ7eyxM_zqgSo1JiQncRfLQMiDZ5/view?usp=sharing
+
+
+
