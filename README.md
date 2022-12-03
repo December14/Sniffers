@@ -15,7 +15,7 @@
 ## Fiddler 
 ### Task :
 1. You need to remove products from the basket on an already known resource http://demowebshop.tricentis.com/cart
-2. Simulate a situation in which, when referring to http://demowebshop.tricentis.com will return the status code 500 
+2. Simulate a situation in which, when referring to http://demowebshop.tricentis.com will return status code 500 
 
 ### Solution :
  1. https://drive.google.com/file/d/11AhofuSjn9xCyIfhsUnmmO_Y0o0b8g4x/view?usp=sharing
