@@ -2,8 +2,8 @@
 ## Charles Proxy 
 ### Task :
 1. You need to change the number of products in the basket on an already known resource http://demowebshop.tricentis.com/cart For example, the request sends "2 products", and you have to return "500".
-2. Simulate a situation in which when contacting http://demowebshop.tricentis.com / the server will return the status code 403. Remember that requests to other resources should work normally
-3. Sometimes in the work of the tester it is necessary to transfer requests from one environment to another. For example, we cannot conduct direct testing on the prod, but must knock on the environment for testing. Suppose that http://demowebshop.tricentis.com / this is the prod version, and http://demowebshop.tricentis.com/qa  is a QA version (don't pay attention that this page doesn't exist). Your task is to redirect the request from Prod to QA
+2. Simulate a situation in which when accessing http://demowebshop.tricentis.com / the server will return the status code 403. Remember that requests to other resources should work normally.
+3. Sometimes in the work of the tester it is necessary to transfer requests from one environment to another. For example, we cannot conduct direct testing on the prod, but must test on the environment for testing. Let's suppose that http://demowebshop.tricentis.com is a prod version, and http://demowebshop.tricentis.com/qa is a QA version (don't pay attention that this page doesn't exist). Your task is to redirect the request from Prod to QA.
 4. Attach a screenshot of intercepted HTTPs requests from your mobile device.
 
 ### Solution :
@@ -15,7 +15,7 @@
 ## Fiddler 
 ### Task :
 1. You need to remove products from the basket on an already known resource http://demowebshop.tricentis.com/cart
-2. Simulate a situation in which, when referring to http://demowebshop.tricentis.com / will return the status code 500 to the server
+2. Simulate a situation in which, when referring to http://demowebshop.tricentis.com will return the status code 500 
 
 ### Solution :
  1. https://drive.google.com/file/d/11AhofuSjn9xCyIfhsUnmmO_Y0o0b8g4x/view?usp=sharing
