@@ -3,7 +3,7 @@
 ### Task :
 1. You need to change the number of products in the basket on an already known resource http://demowebshop.tricentis.com/cart For example, the request sends "2 products", and you have to return "500".
 2. Simulate a situation in which when accessing http://demowebshop.tricentis.com / the server will return the status code 403. Remember that requests to other resources should work normally.
-3. Sometimes in the work of the tester it is necessary to transfer requests from one environment to another. For example, we cannot conduct direct testing on the prod, but must test on the environment for testing. Let's suppose that http://demowebshop.tricentis.com is a prod version, and http://demowebshop.tricentis.com/qa is a QA version (don't pay attention that this page doesn't exist). Your task is to redirect the request from Prod to QA.
+3. Sometimes in the work of the tester it is necessary to transfer requests from one environment to another. For example, we cannot conduct direct testing on the prod, but must test on the environment for testing. Let's suppose that http://demowebshop.tricentis.com is a prod version, and http://demowebshop.tricentis.com/qa is a QA version (don't pay attention that this page doesn't exist). Your task is to redirect request from Prod to QA.
 4. Attach a screenshot of intercepted HTTPs requests from your mobile device.
 
 ### Solution :
